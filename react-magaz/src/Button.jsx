@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 const Button =(props)=>{
     return (
-        <button className={className('button', { 'button--outline': props.outline })}>
+        <button className={classNames('button', { 'button--outline': props.outline })}>
           {props.children}
         </button>
       );
